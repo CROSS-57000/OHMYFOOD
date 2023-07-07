@@ -15,7 +15,23 @@
         font-family: roboto;
         font-weight: lighter;
     }
-   
+    
+    .recherche {
+        display: flex;
+        justify-content: center;
+    }
+ 
+
+    .btn button{
+        width: 218px;
+        height: 50px;
+        background: linear-gradient(45deg, #9356dc, #ff79da);
+        border-radius: 30px;
+        border: none;
+        filter: drop-shadow(3px 3px 3px grey);
+        color: white;
+    }
+
 
 
 
