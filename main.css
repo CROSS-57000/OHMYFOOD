@@ -32,6 +32,13 @@
     color: black;
     opacity: 1; }
 
+p {
+  font-family: roboto;
+  font-weight: lighter; }
+
+.img_restaurants {
+  width: 31%; }
+
 h1 {
   font-family: shrikhand;
   text-align: center; }
@@ -39,13 +46,6 @@ h1 {
 h2 {
   font-family: roboto;
   font-weight: bolder; }
-
-p {
-  font-family: roboto;
-  font-weight: lighter; }
-
-.img_restaurants {
-  width: 31%; }
 
 * {
   box-sizing: border-box; }
