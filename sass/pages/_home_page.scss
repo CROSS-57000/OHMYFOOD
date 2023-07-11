@@ -1,0 +1,30 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+@import '../components/button';
+@import '../components/searchbar';
+@import '../components/articles';
+@import '../components/images';
+
+.img_restaurants {
+    @extend .img_restaurants;  
+}
+
+h1 {
+    @extend h1;
+}
+
+h2 {
+    @extend h2;
+}
+
+.recherche input {
+    @extend input;
+}
+
+button {
+    @extend button;
+}
+
+p {
+    @extend p;
+}

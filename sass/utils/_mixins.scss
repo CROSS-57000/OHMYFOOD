@@ -1,0 +1,21 @@
+@mixin center-element {  
+  display: flex;
+  justify-content: center;
+}
+
+@mixin placeholder-styles { 
+  &::-webkit-input-placeholder {
+    color: black;
+    opacity: 1;
+  }
+
+  &::-moz-placeholder {
+    color: black;
+    opacity: 1;
+  }
+
+  &::-ms-input-placeholder {
+    color: black;
+    opacity: 1;
+  }
+}

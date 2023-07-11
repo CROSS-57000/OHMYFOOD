@@ -1,0 +1,17 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
+.recherche input { 
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+    height: 102px;
+    text-align: center;
+    border-width: 1px 0 0;
+    font-size: larger;
+    font-weight: bold;
+    background-color: #eaeaea;
+    box-shadow: inset -6px 20px 20px -20px rgba(0, 0, 0, 0.47);
+    border: none;
+    @include placeholder-styles; 
+}
