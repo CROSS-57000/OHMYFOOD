@@ -86,6 +86,24 @@ h2 {
   font-family: roboto;
   font-weight: bolder; }
 
+footer {
+  height: 70%;
+  padding: 3% 0;
+  background-color: #353535; }
+  footer ul {
+    list-style: none; }
+    footer ul li {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: white;
+      margin-top: 3%; }
+      footer ul li img {
+        margin-right: 3%; }
+
 main section {
   background-color: #F6F6F6; }
 

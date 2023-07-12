@@ -5,6 +5,7 @@
 @import '../components/articles';
 @import '../components/images';
 @import '../components/titles';
+@import '../components/footer';
 
 h1 {
     @extend h1;
@@ -34,4 +35,8 @@ p {
 
 .restaurants {
     @extend .restaurants
+}
+
+footer {
+    @extend footer;
 }

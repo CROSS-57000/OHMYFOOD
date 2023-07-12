@@ -1,0 +1,26 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
+footer {
+    height: 70%;
+    padding: 3% 0;
+    background-color: #353535;
+    ul {
+        list-style: none;
+
+        li {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: white;
+            margin-top: 3%;
+
+            img {
+                margin-right: 3%;
+            }
+        }
+    }
+}
