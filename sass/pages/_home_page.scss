@@ -6,16 +6,18 @@
 @import '../components/images';
 @import '../components/titles';
 
-.img_restaurants {
-    @extend .img_restaurants;  
-}
-
 h1 {
     @extend h1;
 }
 
 h2 {
     @extend h2;
+}
+
+main {
+    section {
+        background-color: #F6F6F6;
+    }
 }
 
 .recherche input {
@@ -28,4 +30,8 @@ button {
 
 p {
     @extend p;
+}
+
+.restaurants {
+    @extend .restaurants
 }

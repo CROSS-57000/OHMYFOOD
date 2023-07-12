@@ -1,7 +1,58 @@
 @import '../utils/variables';
 @import '../utils/mixins';
 
-p {
-    font-family: roboto;
-    font-weight: lighter;
+.restaurants {
+    color: black;
+    font-family: Roboto;
+    height: 50%;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 9%;
+
+    @include column-element;
+
+    img {
+        border-radius: 15px 15px 0 0;
+        width: 100%;
+        margin: 0 0 5% 0;
+    }
+
+    div {
+        height: 20%;
+        border-radius: 0 0 15px 15px;
+        @include row-space-between-element;
+
+        span {
+            width: 23px;
+            height: 21px;
+            margin-right:  20px;
+            background-image: url(./icon/Like.png);
+            background-size: cover;
+            transition: background-image 0.3s ease;
+        }
+
+        :hover {
+            background-image: url(./icon/Full_Like.png);
+        }
+
+        p {
+            font-size: 118%;
+            font-weight: 300;
+            letter-spacing: 0em;
+            margin-left: 8px;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        font-size : 130%;
+        font-weight: 700;
+        letter-spacing: 0em;
+        color: black;
+        margin-left: 8px;
+    }
+
 }
